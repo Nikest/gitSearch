@@ -1,0 +1,19 @@
+.container {
+  color: #fff;
+  width: 720px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.flex {
+  display: flex;
+}
+
+.left {
+  flex: 1 1 auto;
+}
+
+.right {
+  width: 215px;
+}

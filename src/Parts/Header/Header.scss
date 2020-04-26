@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+  background: var(--header-bg);
+  color: #fff;
+  padding: 10px 0;
+}
+
+.title {
+  grid-column: 1;
+  grid-row: 1;
+  font-weight: 100;
+  line-height: 40px;
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.form {
+  display: grid;
+  justify-content: stretch;
+  width: 290px;
+  margin: auto;
+  height: 32px;
+  grid-template-columns: 1fr 80px;
+  grid-column-gap: 10px;
+}

@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  grid-column-gap: 12px;
+  grid-row-gap: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 3px;
+
+  &:hover {
+    background: var(--hover-bg);
+  }
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  grid-column: 1;
+  grid-row: 1/3;
+}
+
+.login {
+  color: var(--text-decoration-color);
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.type {
+  grid-column: 2;
+  grid-row: 2;
+}

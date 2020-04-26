@@ -1,0 +1,31 @@
+.container {
+  background: #fff;
+  color: var(--text-decoration-color-2);
+  border-radius: 4px;
+  box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+  margin-left: 15px;
+  padding: 20px;
+  font-size: 13px;
+}
+
+.repo {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  &:hover {
+    background: var(--hover-bg);
+  }
+
+  margin-bottom: 10px;
+}
+
+.title {
+  color: var(--text-decoration-color);
+  padding: 10px;
+  border-bottom: 1px solid #e7e8ec;
+  font-weight: 500;
+  font-size: 16px;
+}

@@ -1,0 +1,29 @@
+@import '../fonts/Roboto';
+
+:global {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background: #edeef0;
+
+    &.theme-default {
+      --header-bg: #4a76a8;
+      --hover-bg: #edeef0;
+      --text-decoration-color: #2a5885;
+      --text-decoration-color-2: #67707a;
+      --modal-border: #edeef0;
+      --bg-header: #4a76a8;;
+      --modal-bg: #red;
+      --border-radius: 4px;
+
+    }
+  }
+}

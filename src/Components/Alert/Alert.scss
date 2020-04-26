@@ -1,0 +1,31 @@
+.container {
+  transition: .25s;
+  color: #000;
+  font-size: 16px;
+  padding: 10px 10px;
+}
+
+.none {
+  min-height: 0px;
+}
+
+.loading {
+  min-height: 40px;
+  background: #dceaff;
+  border-left: 3px solid #7b90af;
+  opacity: 1;
+}
+
+.error {
+  min-height: 40px;
+  background: #ffdede;
+  border-left: 3px solid #af6f7a;
+  opacity: 1;
+}
+
+.info {
+  min-height: 40px;
+  background: #ededed;
+  border-left: 3px solid #acabaf;
+  opacity: 1;
+}

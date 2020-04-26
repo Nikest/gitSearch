@@ -1,0 +1,85 @@
+.container {
+  background: #fff;
+  color: #000;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+  padding: 20px;
+  font-size: 13px;
+}
+
+.line {
+  border-bottom: 1px solid #e7e8ec;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.link {
+  color: var(--text-decoration-color);
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.type, .name {
+  color: #656565;
+  font-size: 13px;
+}
+
+.user-grid {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-column-gap: 12px;
+  grid-row-gap: 6px;
+  padding-bottom: 20px;
+  align-items: center;
+
+  .avatar {
+    grid-row: 1/4;
+  }
+
+  .login {
+    grid-column: 2;
+    grid-row: 1;
+    font-weight: 500;
+    color: var(--text-decoration-color);
+    font-size: 16px;
+  }
+
+  .type {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .name {
+    grid-column: 2;
+    grid-row: 3;
+  }
+}
+
+.text-line {
+  padding: 20px 0;
+  font-size: 13px;
+}
+
+.text-decor {
+  color: var(--text-decoration-color);
+  padding: 10px 0;
+}
+
+.followers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  padding-bottom: 20px;
+}
