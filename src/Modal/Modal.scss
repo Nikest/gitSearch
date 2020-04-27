@@ -87,7 +87,7 @@
 
 .close-btn {
     position: absolute;
-    top: -2px;
+    top: 0px;
     right: 7px;
     width: 30px;
     height: 30px;
@@ -115,12 +115,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 25px;
+    height: 30px;
     z-index: 8;
     display: flex;
     align-items: center;
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
     padding: 5px 14px;
     margin: 0;
 }
