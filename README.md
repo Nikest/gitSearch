@@ -1,3 +1,9 @@
+###Features
+
+* State manager
+* Modular form
+* Modular CSS optimization
+
 ##Installing
 
 ```
@@ -16,3 +22,9 @@ http://localhost:3010
 ```
 npm run test
 ```
+
+Testing in:
+
+* src/Services/Store/Store.test.ts
+* src/Services/EventEmitter/EventEmitter.test.ts
+* src/Components/UserView/UserView.test.tsx
